@@ -1,0 +1,46 @@
+# Extracted source archives and the standalone game belong outside Git history.
+/*.zip
+/Game/
+
+# Unity regenerates these folders when the project is opened.
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Generated IDE projects and local editor settings.
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# Operating-system metadata and extracted macOS resource forks.
+__MACOSX/
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# MATLAB autosaves and machine-local preferences.
+*.asv
+*.m~
+slprj/
+*.slxc

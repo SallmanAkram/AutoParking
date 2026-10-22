@@ -1,0 +1,31 @@
+Project Title: Autonomous Parallel Parking using Fuzzy Logic
+Course: CSCI218
+
+
+--- PROJECT OVERVIEW ---
+This project simulates an autonomous car that uses Raycast sensors and a Fuzzy Logic Controller to detect a parking spot and parallel park between obstacles.
+
+--- HOW TO RUN THE SIMULATION (The "Link") ---
+Option 1: Playable App (Recommended)
+1. Open the folder "Game".
+2. Double-click "AutoParking.exe".
+3. The simulation will start automatically.
+
+Option 2: Unity Editor (Source Code)
+1. Open Unity Hub -> Autoparking/Assets/unity file.
+
+the code file is also in the assets folder
+the .executable game has separate folder
+
+--- FILES INCLUDED ---
+1. Report.pdf (Project documentation)
+2. Demo_Video.mp4 (Screen recording of the code and test run)
+3. Build/ (The executable simulation)
+4. Source_Project/ (The complete Unity project files)
+
+--- HOW IT WORKS ---
+The car uses a Finite State Machine with 4 stages:
+1. Scanning: Measures the gap using the Side Sensor.
+2. Entry Turn: Reverses and turns Right using Fuzzy Logic.
+3. Straighten: Reverses and turns Left to align.
+4. Auto-Center: Pulls forward to center in the spot.

@@ -1,0 +1,19 @@
+* text=auto
+
+# Preserve readable Unity serialization and scripts across operating systems.
+*.cs text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.mat text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.m text eol=lf
+*.fis text eol=lf
+
+# Required Unity models, textures, and asset documentation stay binary.
+*.fbx binary
+*.png binary
+*.pdf binary
