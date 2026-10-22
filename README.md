@@ -1,5 +1,7 @@
 # AutoParking
-
+<p align="center">
+  <img src="edit_part_01.webp" alt="Project Demo" width="100%">
+</p>
 Autonomous parallel parking simulation built in Unity for **CSCI218**. A car uses raycast distance sensors and a fuzzy logic controller to find a parking space, reverse into it, straighten, and move forward to center itself.
 
 The repository includes the editable Unity project and a separate MATLAB fuzzy inference model with test scenarios.
