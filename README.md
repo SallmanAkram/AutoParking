@@ -1,6 +1,6 @@
 # AutoParking
 <p align="center">
-  <img src="edit_part_01.webp" alt="Project Demo" width="100%">
+  <img src="edit_part_01_1080p.webp" alt="Project Demo" width="100%">
 </p>
 Autonomous parallel parking simulation built in Unity. A car uses raycast distance sensors and a fuzzy logic controller to find a parking space, reverse into it, straighten, and move forward to center itself.
 
